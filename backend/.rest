@@ -1,0 +1,13 @@
+POST http://localhost:2121/api/users
+Content-Type: application/json
+
+{
+    "name": "bruno",
+    "lastName": "Thiago",
+    "profession": "dev",
+    "age": 21
+}
+
+###
+
+GET http://localhost:2121/api/users
